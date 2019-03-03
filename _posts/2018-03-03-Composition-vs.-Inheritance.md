@@ -15,7 +15,13 @@ The fields of a class hold a reference to another object. At the simplest level,
 
 A class, by default, uses the fields and methods of its superclass, where these fields and methods can be overridden to change the default behaviour. It conveys meaning by arranging concepts from generalised to specialised, and capturing the mechanics of how a class works.
 
-So which is the better option for building software? Most people will tell you to favour composition over inheritance. This is great as a general heuristic, but the trouble arises when it becomes a mantra. Rather than following this advice blindly, it’s important to understand the reasoning behind it. There are no silver bullets in software development, and as with anything, any tool applied inappropriately in the wrong context can easily lead to a less than satisfactory outcome. 
+----
+****
+So which is the better option for building software?
+----
+****
+
+Most people will tell you to favour composition over inheritance. This is great as a general heuristic, but the trouble arises when it becomes a mantra. Rather than following this advice blindly, it’s important to understand the reasoning behind it. There are no silver bullets in software development, and as with anything, any tool applied inappropriately in the wrong context can easily lead to a less than satisfactory outcome. 
 
 However, this piece of advice must have come from some place of wisdom, so we'll now look at:
 * The benefits of composition
@@ -38,4 +44,6 @@ Sometimes the cost of the construction of a composition-based approach is higher
 
 So while inheritance certainly has its drawbacks, that isn’t to say that there is never a situation in which inheritance can be a useful approach to solving a problem. It all depends on the particular problem you’re solving.
 
-To conclude, favouring composition over inheritance as a general rule of thumb is alright. But knowing when to use either approach leads to even better solutions.
+### Conclusion
+
+To conclude, favouring composition over inheritance as a general rule of thumb is alright. **But knowing when to use either approach leads to even better solutions.**
