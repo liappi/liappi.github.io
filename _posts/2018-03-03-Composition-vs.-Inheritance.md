@@ -27,6 +27,7 @@ However, this piece of advice must have come from some place of wisdom, so we'll
 * The drawbacks to composition
 * When to use inheritance
 
+____
 ### The benefits of composition
 
 #### High cohesion, loose coupling
@@ -37,10 +38,12 @@ A big benefit of using composition is that it leads to solutions that are more c
 
 Solutions with high cohesion and loose coupling are more testable and allow for quicker feedback loops. This also makes them more maintainable, and respond more easily to change, which are desirable qualities in software for a business, where what matters is the value it brings to the business at that particular point in time. A business gains a competitive edge if they can respond quickly to the changing needs of their customers over time. Therefore maintainable software that responds easily to change is in the best interest of the business, and composition-based solutions help achieve that more readily.
 
+____
 ### The drawbacks to composition
 
 However, some drawbacks to using composition are that it can add more indirection to a system, and it can sometimes be more work to assemble all the components together to achieve the desired behaviour.
 
+____
 ### When to use inheritance
 
 Sometimes the cost of the construction of a composition-based approach is higher than the benefits of encapsulated responsibilities and flexibility. Sometimes your object already has a single responsibility and you just want specialisations by augmenting your object. Or you find that using composition, you end up with one component that provides the majority of your functionality and that you’re essentially creating a wrapper for that component. 
@@ -49,6 +52,7 @@ Sometimes the cost of the construction of a composition-based approach is higher
 
 So while inheritance certainly has its drawbacks, that isn’t to say that there is never a situation in which inheritance can be a useful approach to solving a problem. It all depends on the particular problem you’re solving.
 
+____
 ### Conclusion
 
 To conclude, favouring composition over inheritance as a general rule of thumb is alright. **But knowing when to use either approach leads to even better solutions.**
