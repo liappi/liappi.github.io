@@ -16,8 +16,8 @@ The fields of a class hold a reference to another object. At the simplest level,
 A class, by default, uses the fields and methods of its superclass, where these fields and methods can be overridden to change the default behaviour. It conveys meaning by arranging concepts from generalised to specialised, and capturing the mechanics of how a class works.
 
 ----
-So which is the better option for building software?
-****
+_So which is the better option for building software?_
+____
 
 Most people will tell you to favour composition over inheritance. This is great as a general heuristic, but the trouble arises when it becomes a mantra. Rather than following this advice blindly, it’s important to understand the reasoning behind it. There are no silver bullets in software development, and as with anything, any tool applied inappropriately in the wrong context can easily lead to a less than satisfactory outcome. 
 
